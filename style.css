@@ -1,0 +1,118 @@
+@keyframes grow{
+    50%{transform: scale(1.05, 1.05);}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px hsl(62, 100%, 50%);}
+}
+.pageColor{
+    position: relative;
+    background-color: rgb(25, 19, 35);
+}
+nav:hover {
+    animation-name: glow;
+    animation-duration: 3s;
+}
+/* Home Page */
+
+/* Custom class to change the modal background color */
+.custom-modal-bg {
+    background-color: #f8f9fa; /* Your desired background color for the entire modal */
+}
+
+/* Change the modal header background color */
+.custom-modal-bg .modal-header {
+    background-color: #290a54; /* Your desired background color */
+    color: white; /* Change text color if needed */
+}
+
+/* Change the modal footer background color */
+.custom-modal-bg .modal-footer {
+    background-color: #0d0419; /* Your desired background color */
+}
+
+/* Change the modal body background color */
+.custom-modal-bg .modal-body {
+    background-color: #2e0b32; /* Your desired background color for the modal body */
+}
+
+
+.icons img {
+    display: block;
+    width: auto; /* Adjust size as needed */
+    height: 30px;
+    max-width: 100%;
+}
+.icons {
+    display: inline-block;
+    margin-right: 50px;
+    height: 30px;
+}
+#buttons a {
+    margin-right: 20px;
+}
+#headshot{
+    height: 300px;
+    width: auto;
+    max-width: 100%;
+}
+#introContainer{
+    background-color: rgb(25, 19, 35); 
+   /* border: 3px solid rgb(79, 31, 134);*/
+    overflow: auto;
+    padding: 100px 20px;
+    cursor: default;
+}
+#introContainer h1{
+    animation-name: grow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#aboutContainer{
+    background-color: rgb(50, 38, 68);
+  /*   border: 3px solid rgb(79, 31, 134);*/
+    overflow: auto;
+    padding: 100px 20px;
+    cursor: default;
+}
+#aboutMeList{
+    text-align: center;
+}
+.slideshowImg{
+    height: 200px;
+}
+
+/* Skills Page */
+#skillsContainer h1{
+    text-align: center;
+}
+#skillsContainer h3{
+    text-align: center;
+}
+.progressBar{
+    margin-right: 55vw;
+}
+#skillsContainer p{
+    display: inline-block;
+}
+#skillsContainer {
+    padding-bottom: 50px;
+    cursor: default;
+}
+#skillsContainer img{
+    margin-right: 10px;
+    float: left;
+    height: 20px;
+}
+
+footer{
+    cursor: default;
+}
+footer img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* CV Page */
+#cvContainer{
+    padding-bottom: 50px;
+}
